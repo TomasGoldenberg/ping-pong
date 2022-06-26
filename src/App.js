@@ -34,11 +34,11 @@ function Paddle() {
     api.rotation.set(0, 0, model.current.rotation.y)
   })
 
-  useEffect(() => {
+  /*   useEffect(() => {
     if (count === 5) {
       alert("te amo mi amor")
     }
-  }, [count])
+  }, [count]) */
   return (
     <mesh ref={ref} dispose={null}>
       <group ref={model} position={[-0.05, 0.37, 0.3]} scale={0.15}>

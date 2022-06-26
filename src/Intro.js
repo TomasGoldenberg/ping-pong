@@ -2,7 +2,7 @@ import { cloneElement, useState } from "react"
 import { Footer } from "@pmndrs/branding"
 
 export default function Intro({ children }) {
-  const [clicked, setClicked] = useState(false)
+  const [clicked, setClicked] = useState(true)
   return (
     <>
       {cloneElement(children, { ready: clicked })}
